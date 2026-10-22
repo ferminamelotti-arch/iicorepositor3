@@ -6,7 +6,7 @@ import os
 PRECIO_ALFAJOR = 1500
 PRECIO_GASEOSA = 2800
 
-st.set_page_config(page_title="Kiosco KCO4", page_icon="🌙")
+st.set_page_config(page_title="Kiosco KCO4")
 
 if os.path.exists("logo.png"):
     st.image("logo.png", width=180)
